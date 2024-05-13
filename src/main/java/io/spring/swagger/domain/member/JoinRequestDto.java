@@ -2,7 +2,9 @@ package io.spring.swagger.domain.member;
 
 import io.spring.swagger.domain.util.StringUtil;
 import io.swagger.v3.oas.annotations.media.Schema;
+import lombok.Builder;
 
+@Builder
 public record JoinRequestDto(
         // 필드 설명
         @Schema(description = "사용할 아이디", example = "visitor123")
