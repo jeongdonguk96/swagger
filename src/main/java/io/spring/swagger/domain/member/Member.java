@@ -1,10 +1,12 @@
 package io.spring.swagger.domain.member;
 
+import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 
 @Getter
+@Builder
 @ToString
 @NoArgsConstructor
 public class Member {

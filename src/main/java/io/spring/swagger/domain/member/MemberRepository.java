@@ -9,4 +9,6 @@ public interface MemberRepository {
     Member findById(int id) throws DataAccessException;
 
     int save(Member member) throws DataAccessException;
+    
+    int deleteAll() throws DataAccessException;
 }

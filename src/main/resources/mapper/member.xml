@@ -15,4 +15,8 @@
 		VALUES (#{id}, #{username}, #{password}, #{address}, #{age});
 	</insert>
 
+	<delete id="deleteAll">
+		DELETE FROM stats;
+	</delete>
+
 </mapper>
